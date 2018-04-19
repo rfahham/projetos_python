@@ -1,12 +1,29 @@
-#!/usr/bin/python
+#!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 
-import time
-import timeit
+# Código
 
-soma = 1 + 2
+time = float(input('Quantidade de minutos: '))
 
-inicio = timeit.default_timer()
-print soma
-fim = timeit.default_timer()
-print ('duração: %f' % (fim - inicio))
+hora = time / 60
+print('{} horas'.format(hora))
+
+segundos = time * 60
+print('{} segundos'.format(segundos))
+
+milisegundos = time * 60 * 1000
+print('{} milisegundos'.format(milisegundos))
+
+
+
+
+# Biblioteca
+
+# print('{}'.format(''))
+# variável = int(input(''))
+# variável = float(input(''))
+
+
+# 1 hora = 60 minutos
+# 1 minuto = 60 segundos
+# 1 segundo = 1000 milisegundos
