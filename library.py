@@ -7,6 +7,6 @@
 
 # Biblioteca
 
-# print('{}'.format(''))
+# print('{}'.format())
 # variável = int(input(''))
 # variável = float(input(''))
