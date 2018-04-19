@@ -8,4 +8,5 @@
 # Biblioteca
 
 # print('{}'.format(''))
-# variaável = int(input(''))
+# variável = int(input(''))
+# variável = float(input(''))
