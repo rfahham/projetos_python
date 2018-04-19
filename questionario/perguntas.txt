@@ -1,0 +1,13 @@
+Qual o comando usado no linux para listar arquivos e diretorios ?
+Qual o comando usado no linux para exibir a documentacao sobre comandos ?
+Para que serve o comando apropos ?
+Para que serve o comando "pwd" ?
+Para que serve o comando "whereis" ?
+What is the difference between which and whereis commands?
+What shutdown -h 30 "se fudeu" does?
+How to unset an alias?
+What does fc -l do?
+Qual o comando usado para lista o historico de comandos executados no console?
+Para que serve o comando which ?
+De um exemplo de criacao de um alias que list os arquivos de um diretorio ou
+Qual o comando que lista os arquivos ocultos em uma pasta?
