@@ -3,27 +3,9 @@
 
 # Código
 
-b = 1
-while b < 11:
-	print b
-	b=b+1
-print('FIM')
-
-print('=' * 30)
-
-c = 1
-while c < 11:
+for c in range(1, 11):
 	print(c)
-	c = c + 1
-print('FIM')
-
-print('=' * 30)
-
-r = 'S'
-while r == 'S':
-	n = int(raw_input('Digite um valor: '))
-	r = str(raw_input('Quer continuar? [S/N] ')).upper()
-print('FIM!')
+print('FIM !')
 
 
 # Biblioteca
