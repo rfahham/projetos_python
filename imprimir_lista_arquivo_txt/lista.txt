@@ -1,6 +1,8 @@
  
 Lista de Alunos 
---- 
+---------------- 
 João da Silva 
 José Lima 
-Maria das Dores 
+Maria das Dores
+ALexandre
+Jorge
