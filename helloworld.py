@@ -30,3 +30,6 @@ root = Tk()
 app = Application(master=root)
 app.mainloop()
 root.destroy()
+
+
+# Abre uma janela com as opções 
