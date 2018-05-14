@@ -3,16 +3,16 @@
 
 # Código
 
-time = float(input('Quantidade de minutos: '))
+# calculatime = float(input('Quantidade de minutos: '))
 
-hora = time / 60
-print('{} horas'.format(hora))
+# hora = calculatime / 60
+# print('{} horas'.format(hora))
 
-segundos = time * 60
-print('{} segundos'.format(segundos))
+# segundos = calculatime * 60
+# print('{} segundos'.format(segundos))
 
-milisegundos = time * 60 * 1000
-print('{} milisegundos'.format(milisegundos))
+# milisegundos = calculatime * 60 * 1000
+# print('{} milisegundos'.format(milisegundos))
 
 
 
