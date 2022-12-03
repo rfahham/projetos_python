@@ -5,8 +5,8 @@
 
 b = 1
 while b < 11:
-	print b
-	b=b+1
+	print(b,"-")
+	b+=1
 print('FIM')
 
 print('=' * 30)
