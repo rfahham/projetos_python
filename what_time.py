@@ -9,7 +9,7 @@
 
 from time import gmtime, strftime
 time.strftime('%X %x %Z')
-print('%X %x %Z')KICK 
+print('%X %x %Z')
 
 
 
