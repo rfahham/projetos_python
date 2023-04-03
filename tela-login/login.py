@@ -10,7 +10,7 @@ window.geometry("500x300")
 
 def clique():
     print("Fazer Login")
-    print(email._entry.__dict__)
+    # print(email._entry.__dict__)
 
 texto = customtkinter.CTkLabel(window, text="Fazer Login")
 email = customtkinter.CTkEntry(window, placeholder_text="Email")
