@@ -1,7 +1,3 @@
-# pip3 install yfinance
-# pip3 install pandas
-# pip3 install tabulate
-
 import pandas as pd
 import yfinance as yf
 from colorama import Fore
