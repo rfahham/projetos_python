@@ -1,5 +1,9 @@
 # pip install colorama
 
+# python3 -m venv ./venv && source venv/bin/activate
+
+# deactivate
+
 from colorama import Fore
 
 print(Fore.RED + "Hello World!")
