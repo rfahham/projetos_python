@@ -1,39 +1,40 @@
-from request import get
-import yfinance as yf
+import yfinance
 import datetime
 import time
+import requests
 
-nome_ativo = "MXRF11"
-valor_desejado = 10.69
-
+ticker = "MXRF11.SA"
+start = "2024-06-17"
+end = "2024-06-21"
 hora_inicial = datetime.time(10, 0)
-hora_fial = datetime.time(17, 0)
+hora_final = datetime.time(17, 0)
+valor_desejado = 10.35
 
-def msg_telegram(nome_ativo: str):
-    CHAVE_API = ""
-    BOT_CHAT_API = "chat_id_tiktok"
+def msg_telegram(ticker: str):
 
-    valor_atual = yf.Ticker(f"{nome_ativo}.SA").history(per)
-    valor_atual_atualizado = valor_atual['Close'][-1]
+    valor_atual = yfinance.Ticker(ticker).history(start=start, end=end)["Close"]
+    valor_atual_atualizado = round(valor_atual.mean(), 2)
+
+    TOKEN = ""
+    CHAT_ID = ""
 
     if (valor_atual_atualizado <= valor_desejado):
-        mensagem = f"Hora de comprar MXRF11 !!! {str{nome_ativo.upper()}}CAIU\n Valor atual: {valor valor_atual}"
-        url_mensagem = f"https://api.telegram.org/bot{CHAVE_API}/sendMessage?chat_id-{BOT_CHAT_API}&parse_mode-Markdown"
-
-        print(f"{mensagem}\n")
-        get(url_mensagem)
-        print("Fluxo finalizado, encerrando. \n")
+        
+        message = f"É hora de comprar MXRF11!!! \nO Valor atual é R$ {valor_atual_atualizado}"
+        url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&text={message}"
+        print(requests.get(url).json())
+        
+        print("Fluxo finalizado, encerrando... \n")
         return True
     else:
         print("Fluxo incompleto, continuando. \n")
     return False
 
-print(">>> Iniciando...")
+print(">>> Iniciando... \n")
 
 while True:
     agora = datetime.datetime.now().time()
     if hora_inicial <= agora <= hora_final:
-        if msg_telegram(nome_ativo):
-            break
-    time.sleep(300)
-
+        msg_telegram(ticker)
+        break
+    time.sleep(10)
