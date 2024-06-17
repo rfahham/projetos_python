@@ -2,14 +2,31 @@
 
 Todos os projetos feitos com python
 
-> Isolar o ambiente:
-    python3 -m venv ./venv && source venv/bin/activate
+## Instalar o env
 
-> Salvar os requirements em um arquivo
-    pip3 freeze > requirements.txt
+```bash
+sudo apt install python3.10-venv
+```
 
-> Instalando os requeirementes a partir do arquivo
-    pip install -r requirements.txt
+## Isolar o ambiente:
 
-Sair do ambiente
-    deactivate
+```bash
+python3 -m venv ./venv && source venv/bin/activate
+```
+
+## Salvar os requirements em um arquivo
+
+```bash
+pip3 freeze > requirements.txt
+```
+
+## Instalando os requeirementes a partir do arquivo
+
+```bash
+pip install -r requirements.txt
+```
+## Sair do ambiente
+
+```bash
+deactivate
+```
