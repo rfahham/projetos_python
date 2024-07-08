@@ -12,11 +12,32 @@ vendedores = {
     "Ana": 3500,
     "Andre": 5500,
     "Maria": 4000,
-    "Luiz": 3000,
-}
+    "Luiz": 2500,
+    }
 
+print("Nome dos vendedores:")
+print(vendedores.keys())
+print("")
+
+print("Valor total das vendas:")
+print(vendedores.values())
+print("")
+
+print("Imprimindo o dicionário:")
+print(vendedores.items())
+print("")
+
+# Valor da meta
 meta = 3000
 
+# Função que verifica quais vendedores batetam a meta
 bateu_meta = [vendedor for vendedor in vendedores if vendedores[vendedor]>=meta]
-
+print("Vendedores batetam a meta:")
 print(bateu_meta)
+print("")
+
+# Função que verifica quais vendedores batetam a meta
+nao_bateu_meta = [vendedor for vendedor in vendedores if vendedores[vendedor]<=meta]
+print("Vendedores que não batetam a meta:")
+print(nao_bateu_meta)
+print("")
