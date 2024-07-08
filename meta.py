@@ -1,6 +1,11 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 
+print("-"*70)
+print("Verifica o somatório de vendas e compara com a meta estipulada")
+print("-"*70)
+print("")
+
 vendedores = {
     "João": 1500,
     "Marlon": 5000,
