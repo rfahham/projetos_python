@@ -1,5 +1,10 @@
 import asyncio
 
+print("-"*23)
+print("Trabalhando com ASYNCIO")
+print("-"*23)
+print("")
+
 async def worker():
     print("Tarefa iniciada")
     await asyncio.sleep(2)
@@ -15,4 +20,5 @@ async def main():
 # Executar o loop de eventos
 asyncio.run(main())
 
-print("Todas as tarefas foram concluídas")
+print("")
+print("Todas as tarefas foram concluídas!")

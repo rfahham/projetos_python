@@ -1,6 +1,11 @@
 import threading
 import time
 
+print("-"*25)
+print("Trabalhando com THREADING")
+print("-"*25)
+print("")
+
 def worker():
     print("Thread iniciada")
     time.sleep(2)
@@ -17,4 +22,5 @@ for i in range(5):
 for t in threads:
     t.join()
 
-print("Todas as threads foram concluídas")
+print("")
+print("Todas as threads foram concluídas!")

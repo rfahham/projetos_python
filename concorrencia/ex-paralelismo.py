@@ -1,6 +1,11 @@
 from multiprocessing import Process
 from time import time, sleep
 
+print("-"*27)
+print("Trabalhando com PARALELISMO")
+print("-"*27)
+print("")
+
 def fazer_bolo(tipo):
     print(f'Fazendo bolo {tipo}...')
     sleep(1)
@@ -15,4 +20,7 @@ p2.start()
 
 p1.join()
 p2.join()
-print(f'Tempo total: {time() - inicio}')
+
+print("")
+print("Todas as threads foram concluídas!")
+print(f'Tempo total de execução foi de: {time() - inicio}')

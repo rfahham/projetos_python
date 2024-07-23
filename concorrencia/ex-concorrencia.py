@@ -1,5 +1,10 @@
 from time import time, sleep
 
+print("-"*28)
+print("Trabalhando com CONCORRÊNCIA")
+print("-"*28)
+print("")
+
 def fazer_bolo(tipo):
     print(f'Fazendo bolo {tipo}...')
     sleep(1)
@@ -9,4 +14,5 @@ inicio = time()
 fazer_bolo('chocolate')
 fazer_bolo('cenoura')
 
-print(f'Tempo total: {time() - inicio}')
+print("")
+print(f'Tempo total de execução foi de: {time() - inicio}')

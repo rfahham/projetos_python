@@ -1,6 +1,11 @@
 import multiprocessing
 import time
 
+print("-"*36)
+print("Trabalhando com MULTIPROCESSAMENTO")
+print("-"*36)
+print("")
+
 def worker():
     print("Processo iniciado")
     time.sleep(2)
@@ -17,4 +22,5 @@ for i in range(5):
 for p in processes:
     p.join()
 
-print("Todos os processos foram concluídos")
+print("")
+print("Todos os processos foram concluídos!")
