@@ -30,3 +30,10 @@ pip install -r requirements.txt
 ```bash
 deactivate
 ```
+## Atualizando todos os pacotes do requirements.txt da sua app Python
+
+```bash
+pip install upgrade-requirements
+upgrade-requirements
+pip freeze > requirements.txt
+```
