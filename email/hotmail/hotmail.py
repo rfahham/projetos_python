@@ -6,14 +6,14 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Configurações do e-mail e credenciais de login
-outlook_server = 'smtp.office365.com'
+outlook_server = 'smtp-mail.outollok.com'
 outlook_port = 465
-outlook_user = 'hotmail@outlook.com'
+outlook_user = 'rfahham@hotmail.com'
 outlook_password = ''
 
 # Destinatário e remetente
 sender = outlook_user
-recipient = 'hotmail@outlook.com'
+recipient = 'rfahham@hotmail.com'
 
 # Assunto e corpo do e-mail
 subject = 'Teste de envio de E-mail'

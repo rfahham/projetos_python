@@ -9,10 +9,10 @@ import smtplib
 
 # OUTLOOK
 try:
-    server = smtplib.SMTP('smtp-mail.outlook.com', 587)
+    server = smtplib.SMTP('smtp.office365.com', 587)
 except Exception as e:
     print(e)
-    server = smtplib.SMTP_SSL('smtp-mail.outlook.com', 465)
+    server = smtplib.SMTP_SSL('smtp.office365.com', 465)
 server.ehlo()
 response = server.ehlo_resp
 print(response)
