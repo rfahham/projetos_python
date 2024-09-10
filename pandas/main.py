@@ -1,5 +1,10 @@
 import pandas as pd
 
-tabela = (io="produtos.xlsx")
+# Caminho para o arquivo CSV
+arquivo_csv = 'dados.csv'
 
-display(tabela)
+# Ler o arquivo CSV
+df = pd.read_csv('dados.csv')
+
+# Exibir o conteúdo do DataFrame
+print(df)
