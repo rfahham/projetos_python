@@ -1,8 +1,0 @@
-attrs==24.2.0
-Automat==24.8.1
-blinker==1.8.2
-certifi==2024.8.30
-chardet==5.2.0
-click==8.1.7
-typing-extensions==4.12.2
-upgrade-requirements==1.7.0
