@@ -1,0 +1,48 @@
+O que é User Story Mapping? Por que utilizar?
+
+Um pré-requisito para construir um produto de sucesso é a eficácia, que é fazer certo a coisa certa, e para isso é necessário o entendimento correto do que precisa ser feito de forma compartilhada com todos os envolvidos. 
+O produto nasce primeiro como uma idéia e logo depois o idealizador possui no máximo algumas noções sobre funcionalidades que ele acha serem necessárias no produto. 
+Mas um produto não é apenas um conjunto de funcionalidades. Ele precisa entregar valor para quem o utiliza.
+
+Entender como entregar valor e quais os caminhos necessários para realizar esse trabalho é extremamente difícil de ser feito em uma reunião ou troca de emails. 
+É preciso dinamismo para conseguir extrair essas informações e compartilhar o entendimento delas com o cliente e com quem vai colaborar na criação do produto. 
+Uma técnica simples e eficiente para esse propósito e o User Story Mapping.
+
+O que é User Story Mapping?
+Story Mapping é uma técnica para criar um entendimento do produto contando estórias a partir do ponto de vista do usuário. 
+A dinâmica é centrada no usuário e com isso entendemos como vai ser a experiência dele com o software, como o produto resolve alguma sua dor, quais os fluxos e qual o mínimo que pode ser feito para entregar valor (MVP).
+
+A idéia original sobre estórias foi publicada primeiramente por Kent Beck, em 1999, no livro Extreme Programming Explained. 
+Entretanto, sua popularidade explodiu após o lançamento do livro User Story Mapping: Discover the Whole Story, Build the Right Product, em 2014, por Jeff Patton. 
+“Pessoas contam estórias legais sobre funcionalidades que elas gostam. Se elas podem contar a estória antes, por que não depois?”.
+
+As estórias são pequenas e simples descrições de uma funcionalidade dita da perspectiva da pessoa que deseja a nova capacidade, usualmente um usuário ou um cliente do sistema — pense sempre que temos vários “client sides” em um produto, como por exemplo usuário final, o administrador, a equipe de operações, etc. 
+Ao criar o mapa delas, conseguimos transmitir o entendimento de forma simples e ágil para todos.
+
+Pessoas que começam a usar estórias para desenvolvimento de software mas tem um modelo de processo tradicional em mente, tendem a focar na parte da escrita. 
+Isso as deixam frustradas pois para a dinâmica funcionar bem todos precisam discutir juntos.
+Ron Jeffries, um dos criadoresos da metodologia ágil Extreme Programming (XP), descreve melhor o processo utilizando a fórmula dos 3 C’s:
+
+Card: escreva o que você gostaria de ver no software.
+Conversação: todos juntos devem ter uma discussão rica sobre o que construir.
+Confirmação: todos juntos concordando quando o software está pronto. 
+
+Se construímos o que concordamos, o que devemos verificar para saber que terminamos? 
+A reposta para isso é uma lista de coisas a serem conferidas, conhecido como critérios de aceitação.
+
+Por que utilizar?
+A metodologia tradicional de desenvolvimento de software possui uma fase chamada de análise de requisitos, onde basicamente alguém conversa com o cliente para entender o que ele quer e documentar isso em forma de funcionalidades. Isso não só é contraprodutivo como é um grande equívoco que leva à um produto medíocre. 
+Mais importante do que funcionalidades entregues são os objetivos alcançados e como o produto melhora a vida das pessoas.
+
+Pessoas podem ler o mesmo documento e ter um entendimento diferente dele. 
+Documentos geralmente descrevem sobre o que precisa ser feito e não o propósito.
+A melhor documentação vem a partir da colaboração entre as pessoas com os problemas a serem resolvidos e àquelas que podem criar a solução. 
+Se você disser o que pensa, outros podem te fazer perguntas e juntos vocês podem externalizar essas idéias para criar um entendimento compartilhado.
+
+Não se trata de quem está certo ou errado mas que todos vêem de forma diferente alguns aspectos.
+Combinando e refinando diferentes idéias, surge um entendimento comum que inclui as melhores delas.
+São feitos desenhos e anotações em sticky notes porque palavras sozinhas são difíceis para envolver as pessoas no entendimento compartilhado.
+Compartilhar documentos não é o mesmo que compartilhar o entendimento.
+
+Conclusão
+Na brainn, temos utilizado a técnica de User Story Mapping nas nossas dinâmicas de Product Discovery e Sprint Planning e conseguido ótimos resultados para compartilhar o entendimento do que precisa ser feito e deixando os times e clientes muito satisfeitos.
